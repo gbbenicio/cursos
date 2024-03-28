@@ -1,1 +1,7 @@
-Criando a pasta Python Fábio dos Reis dentro do diretório Udemy e o arquivo readme.md dentro da nova pasta/diretório.
+Curso de Python ministrado por Fábio dos Reis, instrutor da Bóson Treinamentos, disponibilizado na Udemy.
+
+Curso: Programação com Python - do Zero ao Avançado
+Introdução à Programação de Computadores com a Linguagem Python
+https://www.udemy.com/course/programacao-com-python-do-zero-ao-avancado/
+
+Aqui serão disponibilizados os arquivos com os códigos dos exercícios do curso e anotações de aulas.
