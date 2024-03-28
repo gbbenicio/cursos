@@ -4,4 +4,4 @@ Curso: Programação com Python - do Zero ao Avançado
 Introdução à Programação de Computadores com a Linguagem Python  
 https://www.udemy.com/course/programacao-com-python-do-zero-ao-avancado/
 
-Aqui serão disponibilizados os arquivos com os códigos dos exercícios do curso e anotações de aulas.
+Neste diretório serão disponibilizados os arquivos com os códigos dos exercícios do curso e anotações de aulas.
