@@ -41,3 +41,5 @@ Saiba mais como escrever o [sinal de conjunto vazio](https://pt.piliapp.com/symb
 Veja outros [símbolos](https://pt.piliapp.com/symbol/).
 
 Os elementos que formam uma árvore são chamados **nós** ou **vértices** da árvore, sendo que um nó é especial: O **nó raiz**, que é o único nó existente na posição hierárquica mais alta. Uma árvore vazia não possui nó raiz.
+
+Todos os demais nós da árvore, se existirem, pertencem a alguma **subárvore** do nó raiz. Já um conjunto de árvores é chamado de **floresta**. 
