@@ -3,6 +3,8 @@
 
 Árvores como [`estrutura de dados`](https://github.com/gbbenicio/blog/blob/main/ti/estrutura-de-dados/definicao-estruturas-de-dados.md), suas propriedades básicas e terminologia empregadas. `Árvores binárias`, `árvores de pesquisa` e suas aplicações.
 
+Saiba quais são as diferenças entre árvores binárias e árvores de pesquisa. Clique `aqui`.
+
 Compreender os conceitos e o funcionamento de árvores significa perceber como ocorre a `manipulação de memória`, a programação, a arquitetura de computadores e sistemas operacionais, por exemplo.
 
 As árvores têm aplicações diversas, estando presentes em sistemas simples de busca, bancos de dados, sistemas de arquivos e muitos outros.
