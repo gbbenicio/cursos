@@ -35,8 +35,9 @@ Em computação, a forma como os dados são armazenados tem impacto para operaç
 Uma árvore é um conjunto finito de elementos que obedecem a:
 
 - Se T = { } ou T = ∅
-- Caso contrário, exite pelo menos um elemento chamado de `nó raiz`. OS demais elementos ou são um único conjunto vazio ou são divididos em m 
+- Caso contrário, exite pelo menos um elemento chamado de `nó raiz`. OS demais elementos ou são um único conjunto vazio ou são divididos em m ≥ 1 conjuntos disjuntos não vazios, chamados subárvores do nó raiz, cada qual, por sua vez, uma árvore.
 
 Saiba mais como escrever o [sinal de conjunto vazio](https://pt.piliapp.com/symbols/null-sign/).  
 Veja outros [símbolos](https://pt.piliapp.com/symbol/).
 
+Os elementos que formam uma árvore são chamados **nós** ou **vértices** da árvore, sendo que um nó é especial: O **nó raiz**, que é o único nó existente na posição hierárquica mais alta. Uma árvore vazia não possui nó raiz.
