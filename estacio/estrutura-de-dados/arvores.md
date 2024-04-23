@@ -1,7 +1,7 @@
 # Disciplina: Estrutura de Dados (Graduação Estácio)
 ## Árvores
 
-Árvores como `estrutura de dados`, suas propriedades básicas e terminologia empregadas. `Árvores binárias`, `árvores de pesquisa` e suas aplicações.
+Árvores como [`estrutura de dados`](https://github.com/gbbenicio/blog/blob/main/ti/estrutura-de-dados/definicao-estruturas-de-dados.md), suas propriedades básicas e terminologia empregadas. `Árvores binárias`, `árvores de pesquisa` e suas aplicações.
 
 Compreender os conceitos e o funcionamento de árvores significa perceber como ocorre a `manipulação de memória`, a programação, a arquitetura de computadores e sistemas operacionais, por exemplo.
 
