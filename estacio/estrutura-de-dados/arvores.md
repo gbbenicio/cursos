@@ -1,0 +1,40 @@
+# Disciplina: Estrutura de Dados (Graduação Estácio)
+## Árvores
+
+Árvores como `estrutura de dados`, suas propriedades básicas e terminologia empregadas. `Árvores binárias`, `árvores de pesquisa` e suas aplicações.
+
+Compreender os conceitos e o funcionamento de árvores significa perceber como ocorre a `manipulação de memória`, a programação, a arquitetura de computadores e sistemas operacionais, por exemplo.
+
+As árvores têm aplicações diversas, estando presentes em sistemas simples de busca, bancos de dados, sistemas de arquivos e muitos outros.
+
+- **Módulo 1**  
+Descrever os principais conceitos, as propriedades básicas e os termos relativos à árvore.
+
+- **Módulo 2**  
+Reconhecer as árvores binárias, suas particularidades e aplicações.
+
+- **Módulo 3**  
+Reconhecer as principais árvores de pesquisa, suas particularidades e aplicações.
+
+## Introdução
+
+Árvore é uma das mais importantes estruturas de dados na computação.
+
+Exemplos de usos: visualização da estrutura de diretórios de um sistema operacional, indexadoras de bancos de dados, intefaces gráficas etc.
+
+Se caracteriza pela hierarquização das informações, ou seja, há uma `relação de ancestralidade` entre seus elementos.
+
+Além disso, uma árvore é uma estrutura que **pode ser definida recursivamente**.
+
+## Módulo 1
+
+Em computação, a forma como os dados são armazenados tem impacto para operações de inserção, remoção, atualização, seleção de mínimo/máximo, entre outras.
+
+Uma árvore é um conjunto finito de elementos que obedecem a:
+
+- Se T = { } ou T = ∅
+- Caso contrário, exite pelo menos um elemento chamado de `nó raiz`. OS demais elementos ou são um único conjunto vazio ou são divididos em m 
+
+Saiba mais como escrever o [sinal de conjunto vazio](https://pt.piliapp.com/symbols/null-sign/).  
+Veja outros [símbolos](https://pt.piliapp.com/symbol/).
+
