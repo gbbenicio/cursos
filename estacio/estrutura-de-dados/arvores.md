@@ -43,3 +43,15 @@ Veja outros [símbolos](https://pt.piliapp.com/symbol/).
 Os elementos que formam uma árvore são chamados **nós** ou **vértices** da árvore, sendo que um nó é especial: O **nó raiz**, que é o único nó existente na posição hierárquica mais alta. Uma árvore vazia não possui nó raiz.
 
 Todos os demais nós da árvore, se existirem, pertencem a alguma **subárvore** do nó raiz. Já um conjunto de árvores é chamado de **floresta**. 
+
+O **grau de saída** (ou simplesmente **grau**) **de um nó** é definido como o número de filhos deste nó.
+
+Um nó que não possui descendentes próprios é chamado de nó **folha**.
+
+Nós que não são folha são chamados de **nós interiores**.
+
+O **nó raiz** de uma árvore, ele próprio um **nó interior**, pode agora ser definido como o único nó de uma árvore que não possui ancestrais próprios.
+
+**Grau de uma árvore** é o maior valor entre os graus de seus nós.
+
+Uma árvore de grau 2 é chamada binária, de grau 3, ternária e uma árvore genérica de grau m, m-ária.
