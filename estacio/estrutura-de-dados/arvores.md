@@ -56,4 +56,4 @@ O **nó raiz** de uma árvore, ele próprio um **nó interior**, pode agora ser 
 
 Uma árvore de grau 2 é chamada binária, de grau 3, ternária e uma árvore genérica de grau m, m-ária.
 
-![Estrutura hierárquica de árvore](img/estrutura-hierarquica-de-arvore.png)
+![Estrutura hierárquica de árvore](img/estrutura-hierarquica-da-arvore.png)
