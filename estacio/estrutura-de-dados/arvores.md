@@ -30,7 +30,7 @@ Além disso, uma árvore é uma estrutura que **pode ser definida recursivamente
 
 ## Módulo 1
 
-Em computação, a forma como os dados são armazenados tem impacto para operações de inserção, remoção, atualização, seleção de mínimo/máximo, entre outras.
+Em computação, a forma como os dados são armazenados tem impacto para operações de inserção, remoção, atualização, seleção de mínimo/máximo, entre outras.[^1]
 
 Uma árvore é um conjunto finito de elementos que obedecem a:
 
@@ -57,3 +57,5 @@ O **nó raiz** de uma árvore, ele próprio um **nó interior**, pode agora ser 
 Uma árvore de grau 2 é chamada binária, de grau 3, ternária e uma árvore genérica de grau m, m-ária.
 
 ![Estrutura hierárquica de árvore](img/estrutura-hierarquica-da-arvore.png)
+
+[^1] Nota de rodapé.
