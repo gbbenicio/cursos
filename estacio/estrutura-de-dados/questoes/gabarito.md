@@ -2,4 +2,4 @@
 
 | Questão | Gabarito | Questão | Gabarito |
 |----------|---------|---------|----------|
-| 0001 | D | 0002 | A |
+| 0001 | D (comentários) | 0002 | A (comentários) |
