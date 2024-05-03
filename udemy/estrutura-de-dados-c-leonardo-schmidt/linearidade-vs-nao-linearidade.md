@@ -21,6 +21,8 @@ double: 8 bytes
 
 Em linguagens de **alto nível** utilizamos estruturas e **não nos importamos** de que forma nossos dados são armazenados fisicamente.
 
+### Como um programa é alocado em memória?
+
 Quando um programa vai ser executado, o sistema operacional é responsável por alocar um espaço em memória para que o programa seja colocado lá.
 
 Para que o processador possa usar o programa a primeira premissa é que o programa esteja em memória RAM.
@@ -30,4 +32,17 @@ Quando iniciamos um programa ele precisa ser copiado do HD, onde é apenas códi
 O processador, via sistema operacional, busca no HD o código do programa e faz uma
 cópia para a memória RAM. Após estar na memória RAM ele se torna uma entidade dinâmica e não mais estática.
 
+O programa é alocado pelo sistema operacional na memória RAM.
 
+### Como as variáveis são alocadas na memória RAM?
+
+O programa vai ter um espaço alocado para variáveis na memória RAM. Podem ser alocadas de forma contínua, de forma não contínua. Podem ser alocadas estaticamente, dinamicamente. Temos diferenças nas formas como as variáveis são alocadas.
+
+### Dados são todos alocados continuamente?
+
+Alocação pode ser contínua ou não contínua. Por exemplo o array, vetor, é alocado continuamente, cada posição de memória está uma do lado da outra.
+
+Se tenho um vetor de 4 posições:
+
+| 0 | 1 | 2 | 3 |
+|---|---|---|---|
