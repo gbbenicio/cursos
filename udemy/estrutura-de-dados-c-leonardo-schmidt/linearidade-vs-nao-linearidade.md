@@ -69,3 +69,11 @@ Outras 2 partes são a memória livre (Heap) e as variáveis locais (Pilha - Sta
 As funções podem declarar variáveis locais e podem receber parâmetros.
 
 As variáveis locais dentro de uma função só existem enquanto a função estiver sendo executada.
+
+## Alocação em memória
+
+### O que é melhor?
+
+- Alocar continuamente todos os dados do meu programa?
+- Ou alocar dinamicamente conforme demanda?
+
