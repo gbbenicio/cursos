@@ -55,3 +55,13 @@ Na alocação não contínua podemos alocar os elementos em diferentes partes da
 Estática é quando eu tenho dados que são alocados estaticamente, desde o início do programa.
 
 Dinâmica é alocada sob demanda, em tempo de execução.
+
+## Alocação de memória RAM
+
+Variáveis Locais |--> Pilha (Stack)
+
+Memória Livre |--> Heap
+
+Variáveis Locais ......|  
+Instruções do programa |--> Área de Armazenamento Fixo  
+Variáveis Estáticas ...|   
