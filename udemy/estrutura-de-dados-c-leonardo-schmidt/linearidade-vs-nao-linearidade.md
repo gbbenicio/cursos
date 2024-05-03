@@ -59,6 +59,7 @@ Dinâmica é alocada sob demanda, em tempo de execução.
 ## Alocação de memória RAM
 
 ![Alocação de memória RAM](img/alocacao-de-memoria-ram.png)
+
 O programa vai ter várias partes onde vamos poder alocar em cada parte coisas diferentes.
 
 Na base vamos ter a área de armazenamento fixo, asvariáveis já existem e estão alocadas, ela é de um determinado tipo e já está alocada na memória. O valor da variável pode mudar o que não muda é a sua estrutura.
