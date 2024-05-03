@@ -81,3 +81,9 @@ Resposta: Depende. Tem que avaliar o problema.
 
 Se sabemos de antemão todos os elementos que vamos utilizar podemos alocar continuamente.
 Se não sabemos se vamos precisar de mais memória, é melhor alocar dinamicamente.
+
+## Linearidade x Não Linearidade
+
+- **Estruturas Lineares:** são aquelas em que elementos estão alocados lado a lado na memória RAM. Ex: arrays, vetores.
+- **Estruturas não-lineares:** são aquelas em que os elementos estão espalhados na memória, ou seja, não estão sequenciais. Então como saber onde elas estão?
+
