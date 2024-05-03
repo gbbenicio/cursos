@@ -49,3 +49,9 @@ Se tenho um vetor de 4 posições, teremos os índices 0, 1, 2, 3 um ao lado do 
 | posição 1 | posição 2 | posição 3 | posição 4 |
 
 Na alocação não contínua podemos alocar os elementos em diferentes partes da memória e accessá-los por meio de ponteiros, que são variáveis que contém um endereço de memória aonde esteja o elemento (dado) que queremos acessar.
+
+#### Alocação é estática ou dinâmica?
+
+Estática é quando eu tenho dados que são alocados estaticamente, desde o início do programa.
+
+Dinâmica é alocada sob demanda, em tempo de execução.
