@@ -60,12 +60,4 @@ Dinâmica é alocada sob demanda, em tempo de execução.
 
 ![Alocação de memória RAM](img/alocacao-de-memoria-ram.png)
 
-|------------------------|  
-| Variáveis Locais       |-----> Pilha (Stack)  
-|------------------------|  
-| Memória Livre          |-----> Heap  
-|------------------------|  
-| Variáveis Locais       |  
-| Instruções do programa |-----> Área de Armazenamento Fixo  
-| Variáveis Estáticas    |  
-|------------------------|  
+
