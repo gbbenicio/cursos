@@ -77,3 +77,7 @@ As variáveis locais dentro de uma função só existem enquanto a função esti
 - Alocar continuamente todos os dados do meu programa?
 - Ou alocar dinamicamente conforme demanda?
 
+Resposta: Depende. Tem que avaliar o problema.
+
+Se sabemos de antemão todos os elementos que vamos utilizar podemos alocar continuamente.
+Se não sabemos se vamos precisar de mais memória, é melhor alocar dinamicamente.
