@@ -85,5 +85,11 @@ Se não sabemos se vamos precisar de mais memória, é melhor alocar dinamicamen
 ## Linearidade x Não Linearidade
 
 - **Estruturas Lineares:** são aquelas em que elementos estão alocados lado a lado na memória RAM. Ex: arrays, vetores.
-- **Estruturas não-lineares:** são aquelas em que os elementos estão espalhados na memória, ou seja, não estão sequenciais. Então como saber onde elas estão?
 
+- **Estruturas não-lineares:** são aquelas em que os elementos estão espalhados na memória, ou seja, não estão sequenciais. Então como saber onde elas estão? Podemos trabalhar com ponteiros.
+
+#### Estruturas não lineares
+
+- Para saber onde essas estruturas estão podemos guardar um **ponteiro** que aponte para elas.
+
+- Cada estrutura, portanto, tem um **ponteiro** que aponta para si na memória RAM.
