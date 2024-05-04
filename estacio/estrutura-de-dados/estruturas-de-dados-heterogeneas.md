@@ -13,3 +13,4 @@ Temos que o nome da variável é "x", o tipo é inteiro, o valor é 5 e essa var
 
 Assim como o nome da outra variável é "c", o tipo char, o valor "D", está armazenada no endereço de memória 13 e usa um byte de memória.
 
+![Ponteiros C](img/ponteiros-c.png)
