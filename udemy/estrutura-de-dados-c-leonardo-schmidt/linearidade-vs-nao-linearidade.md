@@ -106,3 +106,7 @@ Precisamos de ponteiros e structs para criar estruturas de dados não lineares.
 Ex: listas, pilhas, filas, árvores, entre outras.  
 
 Além disso cada estrutura dessa tem variações para criar estruturas semelhantes e otimizadas.
+
+![Ponteiros, Structs, Imagem 2](img/ponteiros-structs-2.png)
+
+A solução encontradaé adicionar ponteiros em cada estrutura juntamente com as variáveis x e y existentes, apontando para a struct ponto seguinte na ordem em que são adicionadas.
