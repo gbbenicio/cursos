@@ -93,3 +93,5 @@ Se não sabemos se vamos precisar de mais memória, é melhor alocar dinamicamen
 - Para saber onde essas estruturas estão podemos guardar um **ponteiro** que aponte para elas.
 
 - Cada estrutura, portanto, tem um **ponteiro** que aponta para si na memória RAM.
+
+![Ponteiros, Structs](img/ponteiros-structs.png)
