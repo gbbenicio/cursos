@@ -95,3 +95,9 @@ Se não sabemos se vamos precisar de mais memória, é melhor alocar dinamicamen
 - Cada estrutura, portanto, tem um **ponteiro** que aponta para si na memória RAM.
 
 ![Ponteiros, Structs](img/ponteiros-structs.png)
+
+Os pontos Pi são os ponteiros que apontam para os endereços de memória onde tem as structs de ponto.
+
+Parece estranho, né? Mas então por que precisamos de ponteiros apontando para estruturas?
+
+
