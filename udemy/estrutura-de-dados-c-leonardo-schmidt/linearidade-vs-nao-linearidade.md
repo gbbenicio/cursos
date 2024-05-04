@@ -100,4 +100,9 @@ Os pontos Pi são os ponteiros que apontam para os endereços de memória onde t
 
 Parece estranho, né? Mas então por que precisamos de ponteiros apontando para estruturas?
 
-Para não perdermos o endereço de onde ela foi alocada.
+Para não perdermos o endereço de onde ela foi alocada.  
+
+Precisamos de ponteiros e structs para criar estruturas de dados não lineares.  
+Ex: listas, pilhas, filas, árvores, entre outras.  
+
+Além disso cada estrutura dessa tem variações para criar estruturas semelhantes e otimizadas.
