@@ -100,4 +100,4 @@ Os pontos Pi são os ponteiros que apontam para os endereços de memória onde t
 
 Parece estranho, né? Mas então por que precisamos de ponteiros apontando para estruturas?
 
-
+Para não perdermos o endereço de onde ela foi alocada.
