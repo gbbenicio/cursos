@@ -19,6 +19,7 @@ Neste diretório serão disponibilizados os arquivos com os códigos dos exercí
 - Dicionários: [código](dicionarios.ipynb)
 
 **Seção 5:** Funções em Python
+- Funções: [código](funcoes.ipynb)
 
 **Seção 6:** Recursos avançados do Python
 
