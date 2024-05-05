@@ -12,4 +12,8 @@ Link: [Estrutura de Dados em Linguagem C](https://www.udemy.com/course/linguagem
 - Filas e Pilhas
 - Árvores
 - Busca em Estruturas Lineares
-- Exercícios 
+- Exercícios
+
+### Anotações e códigos
+
+Lista de links com os arquivos.
