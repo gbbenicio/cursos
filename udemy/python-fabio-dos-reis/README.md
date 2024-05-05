@@ -16,6 +16,7 @@ Neste diretório serão disponibilizados os arquivos com os códigos dos exercí
 **Seção 3:** Estruturas de controle no Python
 
 **Seção 4:** Módulos e estruturas de dados básicas
+- Dicionários: [código](dicionarios.ipynb)
 
 **Seção 5:** Funções em Python
 
