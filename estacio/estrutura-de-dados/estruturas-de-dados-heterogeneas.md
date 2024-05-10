@@ -14,3 +14,20 @@ Temos que o nome da variável é "x", o tipo é inteiro, o valor é 5 e essa var
 Assim como o nome da outra variável é "c", o tipo char, o valor "D", está armazenada no endereço de memória 13 e usa um byte de memória.
 
 ![Ponteiros C](img/ponteiros-c.png)
+
+
+#### Structs em C
+
+Para acessar os membros de uma estrutura de dados `struct` podem ser utilizados dois tipos de operadores:
+
+- Operador de membro de estrutura **.** (operador de ponto ou de seleção direta)
+- Operador de ponteiro de estrutura **->** (operador de seta)
+
+Podemos acessar e visualizar o campo rua da estrutura x (que é uma variável endereco), usando a seguinte declaração:
+
+```
+printf("%s", x.rua);
+```
+
+
+
