@@ -43,4 +43,21 @@ Para acessar o membro rua da estrutura endereco via operador de ponteiro, usamos
 printf("%s", x -> rua);
 ```
 
+#### Manipulando structs
+
+`Função fgets()`
+
+A função fgets() tem o objetivo de ler string, no caso o nome do aluno e a disciplina.
+
+```
+fgets(variavel, tamanho da string, entrada
+```
+
+Neste caso a entrada é stdin (entrada padrão), pois estamos lendo do teclado.
+
+```
+fgets(aluno.nome, 40, stdin);
+
+fgets(aluno.disciplins, 40, stdin);
+```
 
