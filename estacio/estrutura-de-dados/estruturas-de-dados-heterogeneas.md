@@ -18,10 +18,14 @@ Assim como o nome da outra variável é "c", o tipo char, o valor "D", está arm
 
 #### Structs em C
 
-Para acessar os membros de uma estrutura de dados `struct` podem ser utilizados dois tipos de operadores:
+Para acessar os membros (campos, elementos) de uma estrutura de dados `struct` podem ser utilizados dois tipos de operadores:
 
 - Operador de membro de estrutura **.** (operador de ponto ou de seleção direta)
 - Operador de ponteiro de estrutura **->** (operador de seta)
+
+Quando é declarada uma variável do tipo estrutura, acessamos um membro (campo) da estrutura usando o operador ponto, indicando o nome da estrutura, seguido por um ponto e pelo nome do campo que se quer acessar.
+
+Neste caso dizemos que a estrutura é **diretamente referenciada**.
 
 Podemos acessar e visualizar o campo rua da estrutura x (que é uma variável endereco), usando a seguinte declaração:
 
@@ -29,5 +33,14 @@ Podemos acessar e visualizar o campo rua da estrutura x (que é uma variável en
 printf("%s", x.rua);
 ```
 
+Quando a struct for referenciada através de ponteiros, o emprego é semelhante ao operador ponto, sendo este substituído pelo operador seta (**->**).
+
+Suponha que um ponteiro **xptr** tenha sido declarado e aponte para a estrutura endereco, e que o endereço de uma estrutura **x** tenha sido atribuído ao ponteiro xptr.
+
+Para acessar o membro rua da estrutura endereco via operador de ponteiro, usamos a declaração a seguir:
+
+```
+printf("%s", x -> rua);
+```
 
 
