@@ -45,6 +45,22 @@ printf("%s", x -> rua);
 
 #### Manipulando structs
 
+```
+/* Ficha de Aluno */
+#include <stdio.h>
+#include <conio.h>
+
+int main(void)
+{
+  /* Criando a struct */
+  struct ficha_de_aluno
+  {
+    char nome[50];
+    char disciplina[30];
+  }
+}
+```
+
 `Função fgets()`
 
 A função fgets() tem o objetivo de ler string, no caso o nome do aluno e a disciplina.
