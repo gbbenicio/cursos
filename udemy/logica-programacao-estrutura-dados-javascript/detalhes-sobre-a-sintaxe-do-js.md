@@ -14,11 +14,18 @@
 
 **nome** é diferente de **Nome** que é diferente de **NOME**
 
-- No Javascript para comentar uma única linha usamos o **//**
+- No Javascript para comentar uma única linha usamos o **//** e de vária **/* */**
 
 ```
 <script>
-    // camelCase
+    // comentário de uma linha
+
+    /*
+    comentário
+    de
+    várias
+    linhas
+    */
     let nome = prompt('Qual o seu nome?');
     alert('Olá ' + nome + '! Seja bem vindo(a)!');
 </script>
