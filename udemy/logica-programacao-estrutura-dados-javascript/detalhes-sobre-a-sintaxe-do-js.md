@@ -1,6 +1,6 @@
 # Detalhes sobre a sintaxe do Javascript
 
-O ponto e vírgula ao final de cada insrução é opcional.
+- O ponto e vírgula ao final de cada insrução é opcional.
 
 ```
 <script>
@@ -10,4 +10,5 @@ O ponto e vírgula ao final de cada insrução é opcional.
 ```
 
 
-Javascript é case sensitive.
+- Javascript é case sensitive, ou seja, diferencia letras minúsculas e maiúsculas.  
+**nome** é diferente de **Nome** que é diferente de **NOME**
