@@ -3,6 +3,12 @@
 ### Módulo 1  
 **Empregar ponteiros com a utilização da linguagem de programação C**
 
+#### Definição
+
+#### Memória
+
+#### Alocação de Memória
+
 #### Ponteiro
 
 Na linguagem C, cada variável tem um nome, um tipo, um valor e um endereço.
@@ -17,6 +23,13 @@ Temos que o nome da variável é "x", o tipo é inteiro, o valor é 5 e essa var
 Assim como o nome da outra variável é "c", o tipo char, o valor "D", está armazenada no endereço de memória 13 e usa um byte de memória.
 
 ![Ponteiros C](img/ponteiros-c.png)
+
+
+#### Declaração
+
+
+### Módulo 2
+**Definir estrutura de dados heterogênea**
 
 
 #### Structs em C
