@@ -10,5 +10,6 @@
 ```
 
 
-- Javascript é case sensitive, ou seja, diferencia letras minúsculas e maiúsculas.  
+- Javascript é case sensitive, ou seja, diferencia letras minúsculas e maiúsculas.
+
 **nome** é diferente de **Nome** que é diferente de **NOME**
