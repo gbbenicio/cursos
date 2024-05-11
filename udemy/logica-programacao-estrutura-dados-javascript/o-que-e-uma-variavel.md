@@ -7,7 +7,9 @@ Uma caixinha só cabe um objeto.
 
 Exercício: Perguntar o nome do usuário e mostrar uma mensagem de boas-vindas.
 
-Constante
+[Solução Proposta](exemplo-01.html)
+
+#### Constante
 
 Uma constante é como se fosse uma variável, mas a partir do momento em que eu atribuo um valor ele não pode mudar mais.
 
