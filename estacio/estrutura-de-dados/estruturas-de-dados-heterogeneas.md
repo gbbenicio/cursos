@@ -31,8 +31,22 @@ Assim como o nome da outra variável é "c", o tipo char, o valor "D", está arm
 ### Módulo 2
 **Definir estrutura de dados heterogênea**
 
+#### Estrutura de dados
 
-#### Structs em C
+#### Tipos de estrutura de dados
+
+#### Estruturas de dados homogêneas x heterogêneas
+
+### Módulo 3
+**Aplicar structs com a utilização da linguagem de programação C**
+
+#### Definição de structs em C
+
+#### Declaração de structs em C
+
+#### Inicializando struct em C
+
+#### Acessando os membros da struct em C
 
 Para acessar os membros (campos, elementos) de uma estrutura de dados `struct` podem ser utilizados dois tipos de operadores:
 
@@ -119,3 +133,17 @@ fgets(aluno.nome, 40, stdin);
 fgets(aluno.disciplins, 40, stdin);
 ```
 
+### Módulo 4
+**Empregar as estruturas de dados aninhadas, os vetores de estruturas e a instrução typedef usando a linguagem de programação C**
+
+#### Struct aninhada
+
+#### Manipulação de structs aninhadas
+
+#### Arrays de structs
+
+#### Buscando um elemento no array de struct
+
+### Conclusão
+
+## Considerações Finais
