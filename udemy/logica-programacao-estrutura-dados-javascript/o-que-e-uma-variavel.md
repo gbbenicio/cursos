@@ -20,4 +20,4 @@ Em Javascript usamos `let` pra criar uma variável e `const` para criar uma cons
 - variável não pode começar com número. Ex.: 2nome  
 - não pode caracteres especiais  
 - não pode espaço  
-- não posso criar uma variável como o nome de algum método ou alguma coisa que o Javascript use. Por exemplo palavras reservadas da linguagem. Ex.: let `alert` não pode.
+- não posso criar uma variável como o nome de algum método ou alguma coisa que o Javascript use. Por exemplo palavras reservadas da linguagem. Ex.: `let alert` não pode.
