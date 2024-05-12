@@ -1,7 +1,9 @@
 # Estruturas de Dados Heterogêneas
 
-### Módulo 1 - **Empregar ponteiros com a utilização da linguagem de programação C**
+### Módulo 1  
 ---
+**Empregar ponteiros com a utilização da linguagem de programação C**
+
 
 #### Definição
 
