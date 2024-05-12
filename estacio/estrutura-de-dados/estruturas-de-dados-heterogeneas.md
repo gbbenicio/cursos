@@ -134,7 +134,7 @@ Neste caso a entrada é stdin (entrada padrão), pois estamos lendo do teclado.
 ```
 fgets(aluno.nome, 40, stdin);
 
-fgets(aluno.disciplins, 40, stdin);
+fgets(aluno.disciplina, 40, stdin);
 ```
 
 ### Módulo 4
