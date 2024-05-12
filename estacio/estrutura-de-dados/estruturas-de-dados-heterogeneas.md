@@ -96,7 +96,7 @@ int main(void)
         float nota_prova2;
     };
 
-    /* Criando a variáelaluno que será tipo struct ficha_de_aluno */
+    /* Criando a variável aluno que será tipo struct ficha_de_aluno */
 
     struct ficha_de_aluno aluno;
 
