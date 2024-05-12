@@ -2,6 +2,7 @@
 
 ### Módulo 1  
 **Empregar ponteiros com a utilização da linguagem de programação C**
+---
 
 #### Definição
 
