@@ -31,6 +31,7 @@ Assim como o nome da outra variável é "c", o tipo char, o valor "D", está arm
 
 
 ### Módulo 2
+---
 **Definir estrutura de dados heterogênea**
 
 #### Estrutura de dados
@@ -40,6 +41,7 @@ Assim como o nome da outra variável é "c", o tipo char, o valor "D", está arm
 #### Estruturas de dados homogêneas x heterogêneas
 
 ### Módulo 3
+---
 **Aplicar structs com a utilização da linguagem de programação C**
 
 #### Definição de structs em C
@@ -136,6 +138,7 @@ fgets(aluno.disciplins, 40, stdin);
 ```
 
 ### Módulo 4
+---
 **Empregar as estruturas de dados aninhadas, os vetores de estruturas e a instrução typedef usando a linguagem de programação C**
 
 #### Struct aninhada
@@ -147,5 +150,6 @@ fgets(aluno.disciplins, 40, stdin);
 #### Buscando um elemento no array de struct
 
 ### Conclusão
+---
 
 #### Considerações Finais
