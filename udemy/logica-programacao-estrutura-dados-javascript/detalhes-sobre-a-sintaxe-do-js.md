@@ -14,7 +14,7 @@
 
 **nome** é diferente de **Nome** que é diferente de **NOME**
 
-- No Javascript para comentar uma única linha usamos o **//** e de vária **/* */**
+- No Javascript para comentar uma única linha usamos o **//** e de várias linhas usamos o **/* */**
 
 ```
 <script>
