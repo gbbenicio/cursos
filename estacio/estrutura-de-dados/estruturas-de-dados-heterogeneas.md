@@ -122,7 +122,7 @@ int main(void)
 A função fgets() tem o objetivo de ler string, no caso o nome do aluno e a disciplina.
 
 ```
-fgets(variavel, tamanho da string, entrada
+fgets(variavel, tamanho da string, entrada)
 ```
 
 Neste caso a entrada é stdin (entrada padrão), pois estamos lendo do teclado.
