@@ -137,6 +137,41 @@ fgets(aluno.nome, 40, stdin);
 fgets(aluno.disciplina, 40, stdin);
 ```
 
+#### Vídeo
+
+```
+// Programa Ficha do Aluno
+// Declaração de Biblioteca
+# include <stdio.h> // Funções de I/O nos dispositivos stdin, stdout e files.
+# include <conio.h> // Funções de manipulação de caracteres na tela.
+
+int main(void)
+{
+    int matricula;
+    char nome[50];
+    float nota;
+
+    float vnotas[20]; // vetor de 20 posições
+    float mnotas[10][2]. // matriz de 10 linhas e 2 colunas
+
+    // Declaração da struct
+    // struct <identificador>
+    // {
+    // <listagem dos tipos e membros>
+    // };
+
+    struct ficha_aluno
+    {
+        int matricula;
+        char nome[50];
+        char disciplina[30];
+
+    }
+
+}
+```
+
+
 ### Módulo 4
 ---
 **Empregar as estruturas de dados aninhadas, os vetores de estruturas e a instrução typedef usando a linguagem de programação C**
