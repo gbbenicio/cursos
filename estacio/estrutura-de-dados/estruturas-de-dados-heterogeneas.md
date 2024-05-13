@@ -173,8 +173,30 @@ int main(void)
         int matricula;
         char nome[50];
         char disciplina[30];
+        float nota;
+    };
 
-    }
+    // Declaração da variável aluno do tipo struct ficha_aluno;
+    struct ficha_aluno aluno;
+
+    // Função printf - impressão em tela
+    // Função scanf - leitura de dados do teclado
+
+    printf("\n Ficha do Aluno \n");
+
+    printf("Matrícula do aluno: ");
+    scanf("%d", &aluno.matricula);
+
+    printf("Nome do aluno: ");
+    scanf("%s", &aluno.nome);
+
+    printf("Disciplina do aluno: ");
+    scanf("%s", &aluno.disciplina);
+
+    printf("Informe a nota do aluno: ");
+    scanf("%f", &aluno.nota);
+
+
 
 }
 ```
