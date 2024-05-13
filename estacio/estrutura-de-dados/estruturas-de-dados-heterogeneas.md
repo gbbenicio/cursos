@@ -218,6 +218,18 @@ int main(void)
 
 #### Struct aninhada
 
+###### Definição
+
+Uma estrutura de dados aninhada ou struct aninhada é basicamente uma estrutura dentro de outra, ou seja, uma estrutura contida em outra ou uma estrutura que pode ser acessada por outra.
+
+Desta maneira, podemos entender que a struct aninhada é um aninhamento de estruturas que nos permite criar estruturas que contenham outras estruturas internas.
+
+O padrão ANSI C especifica que as estruturas de dados (struct) podem ser aninhadas até 15 níveis, mas a maioria dos compiladores permite mais.
+
+###### Declaração
+
+Apenas para relembrar ...
+
 #### Manipulação de structs aninhadas
 
 #### Arrays de structs
