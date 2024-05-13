@@ -234,7 +234,7 @@ Cada unidade de dados na estrutura é chamada de **membro** e possui um nome de 
 
 As estruturas aninhadas podem ser declaradas de 2 (duas) formas:
 
-1. A primeira forma é colocar uma estrutura dentro da outra literalmente. A sintaxe é a apresentada abaixo:
+> 1. A primeira forma é colocar uma estrutura dentro da outra literalmente. A sintaxe é a apresentada abaixo:
 
 ```
 typedef struct {
@@ -269,7 +269,7 @@ NE.membro_interno_1
 NE.membro_1
 ```
 
-2. A segunda forma é declarar a estrutura_1 antes e, na estrutura_2, declarar uma variável da estrutura_1. Desta forma a sintaxe é a seguinte:
+> 2. A segunda forma é declarar a estrutura_1 antes e, na estrutura_2, declarar uma variável da estrutura_1. Desta forma a sintaxe é a seguinte:
 
 ```
 typedef struct {
