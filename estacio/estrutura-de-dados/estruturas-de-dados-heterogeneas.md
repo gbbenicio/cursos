@@ -228,7 +228,53 @@ O padrão ANSI C especifica que as estruturas de dados (struct) podem ser aninha
 
 ###### Declaração
 
-Apenas para relembrar ...
+Cada tipo struct recebe um nome (ou tag ou identificador) que se refere àquele tipo pelo nome precedido pela palavra struct.
+
+Cada unidade de dados na estrutura é chamada de **membro** e possui um nome de membro. Os membros de uma estrutura podem ser de qualquer tipo. Sendo assim os membros de estruturas podem ser também outras estruturas.
+
+As estruturas aninhadas podem ser declaradas de 2 (duas) formas:
+
+1. A primeira forma é colocar uma estrutura dentro da outra literalmente. A sintaxe é a apresentada abaixo:
+
+```
+typedef struct {
+        tipo membro_1;
+        tipo membro_2;
+        ...
+        tipo membro_n;
+        struct{
+                tipo membro_interno_1;
+                tipo membro_interno_2;
+                ...
+                tipo membro_interno_n;
+        }
+} Nome_estrutura;
+
+Nome_estrutura NE;
+```
+
+E para acessar os membros, o acesso é direto e a sintaxe é:
+
+```
+// Para atribuir valores:
+NE.membro_interno_1 = 0;
+NE.membro_1 = 0;
+
+// Para leitura do teclado:
+&NE.membro_interno_1
+&NE.membro_1
+
+// Para impressão:
+NE.membro_interno_1
+NE.membro_1
+```
+
+2. A segunda forma é declarar a estrutura_1 antes e, na estrutura_2, declarar uma variável da estrutura_1. Desta forma a sintaxe é a seguinte:
+
+```
+
+```
+
 
 #### Manipulação de structs aninhadas
 
