@@ -407,11 +407,19 @@ int main(void)
 };
 ```
 
-O comando `typedef`permite criar um novo nome para outro tipo de dados. Assim o novo tipo de dados pode ser declarado como um tipo de dados primitivo existente no sistema operacional.
+O comando `typedef` permite criar um novo nome para outro tipo de dados. Assim o novo tipo de dados pode ser declarado como um tipo de dados primitivo existente no sistema operacional.
 
 Ao analisar a declaração dos campos **depto** e **cargo**, observe que estes campos agora não são mais do tipo estrutura (struct), mas dos tipos definidos **Departamento** e **Cargo**, respectivamente. 
 
 #### Manipulação de structs aninhadas
+
+Definimos duas estruturas, a segundo tendo membros que também são estruturas.
+
+```
+#define LEN 50
+
+
+```
 
 #### Arrays de structs
 
