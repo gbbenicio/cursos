@@ -209,7 +209,7 @@ int main(void)
 ```
 
 
-> A estrutura de dados struct em linguagem C pode realizar diversas operações, como atribuição de variáveis da estrutura a variáveis da estrutura do mesmo tipo, leitura do endereço de uma variável de estrutura (operador &), acesso aos membros de uma variável de estrutura e uso do operador `sizeof` para determinar o tamanho de uma variável de estrutura. O acesso aos membros da estrutura pode ser feito através do operador ponto (.), se for feita a referenciação direta ou operador seta (->), se forem empregados ponteiros.
+A estrutura de dados struct em linguagem C pode realizar diversas operações, como atribuição de variáveis da estrutura a variáveis da estrutura do mesmo tipo, leitura do endereço de uma variável de estrutura (operador &), acesso aos membros de uma variável de estrutura e uso do operador `sizeof` para determinar o tamanho de uma variável de estrutura. O acesso aos membros da estrutura pode ser feito através do operador ponto (.), se for feita a referenciação direta ou operador seta (->), se forem empregados ponteiros.
 
 
 ### Módulo 4
@@ -340,6 +340,76 @@ int main(void)
 Neste exemplo são definidas 3 (três) estruturas: departamento, cargo e funcionario.
 
 A estrutura funcionário possui 5 membros, os dois últimos são do tipo "struct departamento" e "struct cargo", ou seja, dentro da estrutura da struct funcionário temos dois membros do tipo struct.
+
+Outra forma de declarar uma estrutura é colocar uma estrutura dentro da outra literalmente. Vejamos o Exemplo 2.
+
+Exemplo 2:
+
+```
+#include <stdio.h>
+#include <stdlib.h>
+
+struct cargo {
+        int cod;
+        char descricao[30];
+}
+
+struct funcionario {
+        int cod;
+        char nome[30];
+        float salario;
+        struct departamento {
+                int cod;
+                char descricao[30];
+        };
+        struct cargo cargo;
+};
+
+struct funcionario Funcionario;
+
+int main(void)
+{
+
+};
+```
+
+Além das 2 formas de declaração de estruturas aninhadas mostradas nos exemplos 1 e 2, pode-se utilizar `typedef` para dar novo nome ao tipo struct personalizado criado. Vejamos o Exemplo 3.
+
+Exemplo 3:
+
+```
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct departamento {
+                int cod;
+                char descricao[30];
+        } Departamento;
+
+typedef struct cargo {
+        int cod;
+        char descricao[30];
+} Cargo;
+
+typedef struct funcionario {
+        int cod;
+        char nome[30];
+        float salario;
+        Departamento depto;
+        Cargo cargo;
+} Funcionario;
+
+printf("\n TEXTO %_" , nome_vetor_struct[indice].nome_membro_struct);
+
+int main(void)
+{
+
+};
+```
+
+O comando `typedef`permite criar um novo nome para outro tipo de dados. Assim o novo tipo de dados pode ser declarado como um tipo de dados primitivo existente no sistema operacional.
+
+Ao analisar a declaração dos campos **depto** e **cargo**, observe que estes campos agora não são mais do tipo estrutura (struct), mas dos tipos definidos **Departamento** e **Cargo**, respectivamente. 
 
 #### Manipulação de structs aninhadas
 
