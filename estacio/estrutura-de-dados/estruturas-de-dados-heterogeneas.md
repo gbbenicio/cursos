@@ -196,8 +196,15 @@ int main(void)
     printf("Informe a nota do aluno: ");
     scanf("%f", &aluno.nota);
 
+    printf("\n Ficha do Aluno\n");
 
+    printf("Matrícula: %d\n", aluno.matricula);
+    printf("Nome: %s\n", aluno.nome);
+    printf("Disciplina: %s\n", aluno.disciplina);
+    printf("Nota: %.2f\n", aluno.nota);
 
+    system("pause");
+    return(0);
 }
 ```
 
