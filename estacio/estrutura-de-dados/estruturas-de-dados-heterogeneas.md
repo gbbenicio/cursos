@@ -208,7 +208,8 @@ int main(void)
 }
 ```
 
-> A estrutura de dados struct em linguagem C pode realizar diversas operações, como atribuição de variáveis da estruturaa variáveis da estrutura do mesmo tipo, leitura do endereço de uma variável de estrutura (operador &), acesso aos membros de uma variável de estrutura e uso do operador sizeof para determinar o tamanho de uma variável de estrutura. O acesso aos membros da estrutura pode ser feito através do operador ponto (.), se for feita a referenciação direta ou operador seta (->), se forem empregados ponteiros.
+
+> A estrutura de dados struct em linguagem C pode realizar diversas operações, como atribuição de variáveis da estrutura a variáveis da estrutura do mesmo tipo, leitura do endereço de uma variável de estrutura (operador &), acesso aos membros de uma variável de estrutura e uso do operador `sizeof` para determinar o tamanho de uma variável de estrutura. O acesso aos membros da estrutura pode ser feito através do operador ponto (.), se for feita a referenciação direta ou operador seta (->), se forem empregados ponteiros.
 
 
 ### Módulo 4
