@@ -272,7 +272,32 @@ NE.membro_1
 2. A segunda forma é declarar a estrutura_1 antes e, na estrutura_2, declarar uma variável da estrutura_1. Desta forma a sintaxe é a seguinte:
 
 ```
+typedef struct {
+        tipo membro_1;
+        tipo membro_2;
+        ...
+        tipo membro_n;
+} nome_estrutura_1;
 
+typedef struct {
+        tipo membro_1;
+        tipo membro_2;
+        nome_estrutura_1 NE1;
+        ...
+        tipo membro_n;
+} nome_estrutura_2;
+
+nome_estrutura_2 NE2;
+```
+
+E para acessar os membros, a sintaxe é:
+
+```
+// Para acessar os membros
+NE2.membro_1;
+NE2.membro_2;
+NE2.NE1.membro_1;
+NE2.NE1.membro_2;
 ```
 
 
