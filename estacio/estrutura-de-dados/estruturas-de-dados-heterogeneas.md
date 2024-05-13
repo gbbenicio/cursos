@@ -203,7 +203,7 @@ int main(void)
     printf("Disciplina: %s\n", aluno.disciplina);
     printf("Nota: %.2f\n", aluno.nota);
 
-    system("pause");
+    system("PAUSE");
     return(0);
 }
 ```
