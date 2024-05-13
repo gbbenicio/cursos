@@ -234,7 +234,7 @@ Cada unidade de dados na estrutura é chamada de **membro** e possui um nome de 
 
 As estruturas aninhadas podem ser declaradas de 2 (duas) formas:
 
-> 1. A primeira forma é colocar uma estrutura dentro da outra literalmente. A sintaxe é a apresentada abaixo:
+1. A primeira forma é colocar uma estrutura dentro da outra literalmente. A sintaxe é a apresentada abaixo:
 
 ```
 typedef struct {
@@ -269,7 +269,7 @@ NE.membro_interno_1
 NE.membro_1
 ```
 
-> 2. A segunda forma é declarar a estrutura_1 antes e, na estrutura_2, declarar uma variável da estrutura_1. Desta forma a sintaxe é a seguinte:
+2. A segunda forma é declarar a estrutura_1 antes e, na estrutura_2, declarar uma variável da estrutura_1. Desta forma a sintaxe é a seguinte:
 
 ```
 typedef struct {
@@ -300,6 +300,46 @@ NE2.NE1.membro_1;
 NE2.NE1.membro_2;
 ```
 
+Exemplo 1:
+
+```
+#include <stdio.h>
+#include <stdlib.h>
+
+// Declaração da estrutura departamento
+struct departamento {
+        int cod;
+        char descricao[30];
+};
+
+// Declaração da estrutura cargo
+struct cargo {
+        int cod;
+        char descricao[30];
+};
+
+// Declaração da estrutura funcionário
+// Essa é uma struct aninhada, com 2 (duas) structs dentro da outra
+struct funcionario {
+        int cod;
+        char nome[30];
+        float salario;
+        struct departamento depto;  // o campo depto é do tipo struct departamento
+        struct cargo cargo;  // o campo cargo é do tipo struct cargo
+};
+
+struct funcionario Funcionario;
+
+int main(void)
+{
+
+};
+
+```
+
+Neste exemplo são definidas 3 (três) estruturas: departamento, cargo e funcionario.
+
+A estrutura funcionário possui 5 membros, os dois últimos são do tipo "struct departamento" e "struct cargo", ou seja, dentro da estrutura da struct funcionário temos dois membros do tipo struct.
 
 #### Manipulação de structs aninhadas
 
