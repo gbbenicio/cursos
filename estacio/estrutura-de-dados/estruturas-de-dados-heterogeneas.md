@@ -139,6 +139,14 @@ fgets(aluno.disciplina, 40, stdin);
 
 #### Vídeo
 
+As estruturas de dados heterogêneas são conjuntos de dados formados por tipos de dados diferentes, como os **registros** ou, melhor dizendo, **structs**.
+
+O registro é chamado em linguagem C de `struct`.
+
+Vamos analisar o programa que vai declarar uma struct "ficha do aluno", com os campos matrícula, nome, disciplina e nota.
+
+Ao criar a struct vamos realizar operações de inserção e impressão dos dados do aluno.
+
 ```
 // Programa Ficha do Aluno
 // Declaração de Biblioteca
